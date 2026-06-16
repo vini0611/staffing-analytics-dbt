@@ -17,7 +17,7 @@ opportunities as (
 select c.*, count(distinct p.placement_id) as total_placements,
 sum(case when p.status = 'active' then 1 else 0 end) as active_placements,
 sum(p.bill_rate) as total_revenue,
-sum(case when o.stage not in ('closed-won','closed-lost') then o.weighted_value else 0 end) as open_pipeline_value
+sum(case when o.stage not in ('closed_won','closed_lost') then o.weighted_value else 0 end) as open_pipeline_value
 from clients c
 left join placements p on c.client_id = p.client_id
 left join opportunities o on c.client_id = o.client_id
