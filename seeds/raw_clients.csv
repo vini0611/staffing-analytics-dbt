@@ -1,0 +1,51 @@
+id,company_name,industry,city,state,contact_name,contact_email,contract_start_date,contract_status,account_manager
+1,Google LLC,Technology,Mountain View,CA,Steve Hamilton,steve.hamilton@google.com,2022-01-15,active,Sarah Mitchell
+2,Microsoft Corp,Technology,Redmond,WA,Linda Zhao,linda.zhao@microsoft.com,2022-03-20,active,Sarah Mitchell
+3,JPMorgan Chase,Banking,New York,NY,Robert Stern,robert.stern@jpmorgan.com,2022-05-10,active,James Cooper
+4,Amazon Web Services,Technology,Seattle,WA,Patricia Wong,patricia.wong@aws.com,2022-07-01,active,Sarah Mitchell
+5,Deloitte Consulting,Consulting,Chicago,IL,Marcus Johnson,marcus.johnson@deloitte.com,2022-08-15,active,James Cooper
+6,Bank of America,Banking,Charlotte,NC,Sandra Lee,sandra.lee@bofa.com,2022-09-01,active,James Cooper
+7,Salesforce Inc,Technology,San Francisco,CA,Kevin ONeal,kevin.oneal@salesforce.com,2022-10-12,active,Sarah Mitchell
+8,Accenture,Consulting,New York,NY,Diana Patel,diana.patel@accenture.com,2022-11-20,active,James Cooper
+9,Goldman Sachs,Banking,New York,NY,Thomas Reed,thomas.reed@gs.com,2023-01-05,active,James Cooper
+10,IBM Corporation,Technology,Armonk,NY,Helen Foster,helen.foster@ibm.com,2023-02-14,active,Sarah Mitchell
+11,Capgemini,Consulting,Houston,TX,Brian Shah,brian.shah@capgemini.com,2023-03-22,active,James Cooper
+12,Wells Fargo,Banking,San Francisco,CA,Melissa Cruz,melissa.cruz@wellsfargo.com,2023-04-10,active,James Cooper
+13,Oracle Corporation,Technology,Austin,TX,Gary Thompson,gary.thompson@oracle.com,2023-05-18,active,Sarah Mitchell
+14,Cognizant,Technology,Teaneck,NJ,Amy Nguyen,amy.nguyen@cognizant.com,2023-06-25,active,Sarah Mitchell
+15,Infosys,Technology,Dallas,TX,Raj Krishnamurthy,raj.k@infosys.com,2023-07-30,active,Sarah Mitchell
+16,Citibank,Banking,New York,NY,Laura Bennett,laura.bennett@citi.com,2023-08-14,active,James Cooper
+17,Wipro Technologies,Technology,Dallas,TX,Suresh Nair,suresh.nair@wipro.com,2023-09-20,active,Sarah Mitchell
+18,EY Advisory,Consulting,Boston,MA,Chris Martin,chris.martin@ey.com,2023-10-05,active,James Cooper
+19,KPMG,Consulting,New York,NY,Alicia Torres,alicia.torres@kpmg.com,2023-11-12,active,James Cooper
+20,Tata Consultancy,Technology,Cincinnati,OH,Vinod Mehta,vinod.mehta@tcs.com,2023-12-01,active,Sarah Mitchell
+21,Morgan Stanley,Banking,New York,NY,Frank Gibson,frank.gibson@ms.com,2024-01-08,active,James Cooper
+22,PwC Advisory,Consulting,Chicago,IL,Nancy Kim,nancy.kim@pwc.com,2024-02-14,active,James Cooper
+23,Apple Inc,Technology,Cupertino,CA,Peter Walsh,peter.walsh@apple.com,2024-03-20,active,Sarah Mitchell
+24,Meta Platforms,Technology,Menlo Park,CA,Julie Chen,julie.chen@meta.com,2024-04-10,active,Sarah Mitchell
+25,Anthem Inc,Healthcare,Indianapolis,IN,Scott Brown,scott.brown@anthem.com,2024-05-15,active,James Cooper
+26,UnitedHealth Group,Healthcare,Minnetonka,MN,Karen Davis,karen.davis@uhg.com,2024-06-01,active,James Cooper
+27,Lockheed Martin,Defense,Bethesda,MD,Richard Evans,richard.evans@lm.com,2024-06-20,active,James Cooper
+28,Boeing Company,Defense,Chicago,IL,Susan Wright,susan.wright@boeing.com,2024-07-05,active,James Cooper
+29,AT&T Inc,Telecom,Dallas,TX,Edward Hall,edward.hall@att.com,2024-07-22,inactive,Sarah Mitchell
+30,Verizon,Telecom,New York,NY,Dorothy Young,dorothy.young@verizon.com,2024-08-10,active,Sarah Mitchell
+31,Nvidia Corporation,Technology,Santa Clara,CA,James Lin,james.lin@nvidia.com,2024-08-20,active,Sarah Mitchell
+32,Adobe Systems,Technology,San Jose,CA,Monica Sharma,monica.sharma@adobe.com,2024-09-01,active,Sarah Mitchell
+33,Cisco Systems,Technology,San Jose,CA,Andrew Park,andrew.park@cisco.com,2024-09-10,active,Sarah Mitchell
+34,Intel Corporation,Technology,Santa Clara,CA,Rebecca Moore,rebecca.moore@intel.com,2024-09-20,active,Sarah Mitchell
+35,McKinsey and Co,Consulting,New York,NY,David Clarke,david.clarke@mckinsey.com,2024-10-01,active,James Cooper
+36,Boston Consulting,Consulting,Boston,MA,Patricia Hill,patricia.hill@bcg.com,2024-10-10,active,James Cooper
+37,Booz Allen Hamilton,Consulting,McLean,VA,Samuel White,samuel.white@bah.com,2024-10-20,active,James Cooper
+38,SAIC,Defense,Reston,VA,Catherine Brown,catherine.brown@saic.com,2024-11-01,active,James Cooper
+39,Raytheon,Defense,Waltham,MA,Joseph Davis,joseph.davis@raytheon.com,2024-11-10,active,James Cooper
+40,General Dynamics,Defense,Reston,VA,Margaret Wilson,margaret.wilson@gd.com,2024-11-20,active,James Cooper
+41,UBS Group,Banking,New York,NY,Christopher Lee,christopher.lee@ubs.com,2024-12-01,active,James Cooper
+42,Barclays,Banking,New York,NY,Jennifer Taylor,jennifer.taylor@barclays.com,2024-12-10,active,James Cooper
+43,Deutsche Bank,Banking,New York,NY,Michael Anderson,michael.anderson@db.com,2024-12-20,active,James Cooper
+44,Humana Inc,Healthcare,Louisville,KY,Linda Jackson,linda.jackson@humana.com,2025-01-05,active,James Cooper
+45,CVS Health,Healthcare,Woonsocket,RI,Barbara Martinez,barbara.martinez@cvs.com,2025-01-15,active,James Cooper
+46,Aetna,Healthcare,Hartford,CT,William Thompson,william.thompson@aetna.com,2025-01-25,active,James Cooper
+47,T-Mobile,Telecom,Bellevue,WA,Elizabeth Garcia,elizabeth.garcia@tmobile.com,2025-02-05,active,Sarah Mitchell
+48,Comcast,Telecom,Philadelphia,PA,David Robinson,david.robinson@comcast.com,2025-02-15,active,Sarah Mitchell
+49,Netflix,Technology,Los Gatos,CA,Susan Clark,susan.clark@netflix.com,2025-02-25,active,Sarah Mitchell
+50,Uber Technologies,Technology,San Francisco,CA,Kenneth Lewis,kenneth.lewis@uber.com,2025-03-05,active,Sarah Mitchell

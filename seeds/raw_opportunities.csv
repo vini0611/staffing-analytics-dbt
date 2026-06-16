@@ -1,0 +1,51 @@
+id,client_id,opportunity_name,stage,estimated_value,probability,expected_close_date,closed_date,lost_reason,owner,created_date
+1,1,Google - Java Team Expansion,closed_won,180000,100,2023-02-15,2023-02-28,,Sarah Mitchell,2023-01-15
+2,2,Microsoft - Data Platform Build,closed_won,140000,100,2023-03-20,2023-04-01,,Sarah Mitchell,2023-02-20
+3,3,JPMorgan - PM Office Setup,closed_won,120000,100,2023-04-20,2023-05-15,,James Cooper,2023-03-10
+4,4,AWS - Python Dev Team,closed_won,405000,100,2023-05-15,2023-06-10,,Sarah Mitchell,2023-04-05
+5,5,Deloitte - DevOps Practice,closed_won,290000,100,2023-06-25,2023-07-20,,James Cooper,2023-05-12
+6,6,BofA - QA Center,closed_won,110000,100,2023-07-15,2023-08-05,,James Cooper,2023-06-18
+7,7,Salesforce - Full Stack Team,closed_won,310000,100,2023-08-20,2023-09-15,,Sarah Mitchell,2023-07-22
+8,8,Accenture - BA Practice,closed_won,95000,100,2023-09-15,2023-10-10,,James Cooper,2023-08-30
+9,9,Goldman - Data Science Unit,closed_won,160000,100,2023-10-15,2023-11-01,,James Cooper,2023-09-14
+10,10,IBM - Cloud Center,closed_won,170000,100,2023-11-15,2023-12-05,,Sarah Mitchell,2023-10-25
+11,11,Capgemini - SAP Practice,closed_won,330000,100,2023-12-15,2024-01-10,,James Cooper,2023-11-05
+12,12,Wells Fargo - Security Team,closed_won,150000,100,2024-01-15,2024-02-01,,James Cooper,2023-11-20
+13,13,Oracle - ML Team,closed_won,175000,100,2024-02-15,2024-03-01,,Sarah Mitchell,2023-12-01
+14,14,Cognizant - React Team,closed_won,280000,100,2024-03-15,2024-04-05,,Sarah Mitchell,2023-12-15
+15,15,Infosys - Scrum Office,closed_won,130000,100,2024-04-15,2024-05-01,,Sarah Mitchell,2024-01-08
+16,16,Citibank - Network Team,closed_won,270000,100,2024-05-15,2024-06-01,,James Cooper,2024-01-22
+17,17,Wipro - Analytics Practice,closed_won,360000,100,2024-06-15,2024-07-01,,Sarah Mitchell,2024-02-10
+18,18,EY - Design Studio,closed_won,130000,100,2024-07-15,2024-08-01,,James Cooper,2024-02-25
+19,19,KPMG - Product Office,closed_won,130000,100,2024-08-15,2024-09-01,,James Cooper,2024-03-12
+20,20,TCS - Java Center,closed_won,290000,100,2024-09-15,2024-10-01,,Sarah Mitchell,2024-03-28
+21,21,Morgan Stanley - Data Team,closed_won,148000,100,2024-04-10,2024-05-01,,James Cooper,2024-03-01
+22,22,PwC - Python Practice,closed_won,276000,100,2024-06-20,2024-07-15,,James Cooper,2024-05-01
+23,23,Apple - Cloud Office,closed_won,172000,100,2024-08-20,2024-09-10,,Sarah Mitchell,2024-07-01
+24,24,Meta - React Team,closed_won,304000,100,2024-10-15,2024-11-05,,Sarah Mitchell,2024-08-10
+25,25,Anthem - Data Science,closed_won,162000,100,2024-12-05,2024-12-20,,James Cooper,2024-09-15
+26,26,UHG - Network Expansion,closed_won,135000,100,2024-02-25,2024-03-15,,James Cooper,2024-01-10
+27,27,Lockheed - Security Team,closed_won,310000,100,2024-03-30,2024-04-20,,James Cooper,2024-02-20
+28,28,Boeing - DevOps Center,closed_won,148000,100,2024-05-15,2024-06-05,,James Cooper,2024-04-01
+29,29,AT&T - Java Practice,closed_won,284000,100,2024-06-25,2024-07-15,,Sarah Mitchell,2024-05-15
+30,30,Verizon - Full Stack Team,closed_won,158000,100,2024-07-30,2024-08-20,,Sarah Mitchell,2024-06-25
+31,1,Google - ML Expansion,negotiation,250000,75,2025-02-28,,,Sarah Mitchell,2024-12-01
+32,2,Microsoft - Security Practice,proposal,180000,50,2025-03-15,,,Sarah Mitchell,2024-12-15
+33,4,AWS - Data Platform,negotiation,320000,80,2025-03-01,,,Sarah Mitchell,2025-01-01
+34,5,Deloitte - Cloud Practice,proposal,200000,45,2025-03-20,,,James Cooper,2025-01-05
+35,7,Salesforce - Data Team,negotiation,275000,70,2025-04-01,,,Sarah Mitchell,2025-01-10
+36,9,Goldman - AI Unit,proposal,350000,55,2025-04-15,,,James Cooper,2025-01-15
+37,13,Oracle - Data Science,prospecting,180000,25,2025-05-01,,,Sarah Mitchell,2025-01-20
+38,14,Cognizant - Full Stack,proposal,240000,50,2025-04-20,,,Sarah Mitchell,2025-01-25
+39,21,Morgan Stanley - ML,negotiation,220000,75,2025-03-30,,,James Cooper,2025-02-01
+40,23,Apple - AI Team,prospecting,400000,20,2025-06-01,,,Sarah Mitchell,2025-02-05
+41,24,Meta - Data Platform,proposal,280000,45,2025-05-15,,,Sarah Mitchell,2025-02-10
+42,25,Anthem - Network,prospecting,140000,20,2025-06-15,,,James Cooper,2025-02-15
+43,26,UHG - DevOps,proposal,160000,40,2025-05-20,,,James Cooper,2025-02-20
+44,27,Lockheed - Data Science,negotiation,300000,70,2025-04-10,,,James Cooper,2025-02-25
+45,28,Boeing - ML Practice,prospecting,250000,15,2025-07-01,,,James Cooper,2025-03-01
+46,3,JPMorgan - Cloud Team,closed_lost,200000,0,2024-11-01,2024-11-15,budget,James Cooper,2024-09-01
+47,6,BofA - ML Initiative,closed_lost,300000,0,2024-10-01,2024-10-20,competitor,James Cooper,2024-08-01
+48,8,Accenture - Cloud Practice,closed_lost,180000,0,2024-09-15,2024-10-01,no_budget,James Cooper,2024-07-15
+49,16,Citibank - Data Team,closed_lost,220000,0,2024-08-20,2024-09-05,timeline,James Cooper,2024-06-20
+50,19,KPMG - DevOps,closed_lost,150000,0,2024-07-15,2024-08-01,competitor,James Cooper,2024-05-15

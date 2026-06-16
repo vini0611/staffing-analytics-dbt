@@ -1,0 +1,71 @@
+id,client_id,title,skill_required,city,state,employment_type,bill_rate,pay_rate,openings,status,opened_date,filled_date
+1,1,Senior Java Developer,Java Developer,Mountain View,CA,contract,150,95,2,filled,2023-02-01,2023-02-28
+2,2,Data Engineer,Data Engineer,Redmond,WA,contract,140,88,1,filled,2023-03-05,2023-04-01
+3,3,Project Manager,Project Manager,New York,NY,permanent,0,120000,1,filled,2023-04-10,2023-05-15
+4,4,Python Developer,Python Developer,Seattle,WA,contract,135,85,3,filled,2023-05-01,2023-06-10
+5,5,DevOps Engineer,DevOps Engineer,Chicago,IL,contract,145,90,2,filled,2023-06-15,2023-07-20
+6,6,QA Engineer,QA Engineer,Charlotte,NC,contract,110,70,1,filled,2023-07-01,2023-08-05
+7,7,Full Stack Developer,Full Stack Developer,San Francisco,CA,contract,155,98,2,filled,2023-08-10,2023-09-15
+8,8,Business Analyst,Business Analyst,New York,NY,permanent,0,95000,1,filled,2023-09-01,2023-10-10
+9,9,Data Scientist,Data Scientist,New York,NY,contract,160,100,1,filled,2023-10-05,2023-11-01
+10,10,Cloud Architect,Cloud Architect,Armonk,NY,contract,170,110,1,filled,2023-11-01,2023-12-05
+11,11,SAP Consultant,SAP Consultant,Houston,TX,contract,165,105,2,filled,2023-12-01,2024-01-10
+12,12,Cybersecurity Analyst,Cybersecurity Analyst,San Francisco,CA,contract,150,95,1,filled,2024-01-05,2024-02-01
+13,13,Machine Learning Engineer,Machine Learning Engineer,Austin,TX,contract,175,115,1,filled,2024-02-01,2024-03-01
+14,14,React Developer,React Developer,Teaneck,NJ,contract,140,88,2,filled,2024-03-01,2024-04-05
+15,15,Scrum Master,Scrum Master,Dallas,TX,contract,130,82,1,filled,2024-04-01,2024-05-01
+16,16,Network Engineer,Network Engineer,New York,NY,contract,135,85,2,filled,2024-05-01,2024-06-01
+17,17,Data Analyst,Data Analyst,Dallas,TX,contract,120,75,3,filled,2024-06-01,2024-07-01
+18,18,UX Designer,UX Designer,Boston,MA,contract,130,82,1,filled,2024-07-01,2024-08-01
+19,19,Product Manager,Product Manager,New York,NY,permanent,0,130000,1,filled,2024-08-01,2024-09-01
+20,20,Java Developer,Java Developer,Cincinnati,OH,contract,145,90,2,filled,2024-09-01,2024-10-01
+21,21,Senior Data Engineer,Data Engineer,New York,NY,contract,148,93,1,filled,2023-03-01,2023-04-01
+22,22,Python Developer,Python Developer,Chicago,IL,contract,138,87,2,filled,2023-05-10,2023-06-15
+23,23,Cloud Architect,Cloud Architect,Cupertino,CA,contract,172,112,1,filled,2023-07-01,2023-08-10
+24,24,React Developer,React Developer,Menlo Park,CA,contract,152,96,2,filled,2023-09-01,2023-10-05
+25,25,Data Scientist,Data Scientist,Indianapolis,IN,contract,162,102,1,filled,2023-11-01,2023-12-01
+26,26,Network Engineer,Network Engineer,Minnetonka,MN,contract,135,85,1,filled,2024-01-10,2024-02-15
+27,27,Cybersecurity Analyst,Cybersecurity Analyst,Bethesda,MD,contract,155,98,2,filled,2024-02-20,2024-03-25
+28,28,DevOps Engineer,DevOps Engineer,Chicago,IL,contract,148,93,1,filled,2024-04-01,2024-05-10
+29,29,Java Developer,Java Developer,Dallas,TX,contract,142,89,2,filled,2024-05-15,2024-06-20
+30,30,Full Stack Developer,Full Stack Developer,New York,NY,contract,158,100,1,filled,2024-06-25,2024-07-30
+31,1,Data Engineer,Data Engineer,Mountain View,CA,contract,142,89,1,filled,2024-01-15,2024-02-20
+32,2,Machine Learning Engineer,Machine Learning Engineer,Redmond,WA,contract,178,118,1,filled,2024-02-25,2024-03-30
+33,3,Business Analyst,Business Analyst,New York,NY,permanent,0,98000,1,filled,2024-03-10,2024-04-15
+34,4,QA Automation Engineer,QA Engineer,Seattle,WA,contract,125,78,2,filled,2024-04-20,2024-05-25
+35,5,Scrum Master,Scrum Master,Chicago,IL,contract,132,83,1,filled,2024-05-30,2024-07-05
+36,6,Data Analyst,Data Analyst,Charlotte,NC,contract,122,76,2,filled,2024-06-10,2024-07-15
+37,7,Cloud Engineer,Cloud Architect,San Francisco,CA,contract,168,108,1,filled,2024-07-20,2024-08-25
+38,8,UX Designer,UX Designer,New York,NY,contract,132,83,1,filled,2024-08-01,2024-09-05
+39,9,SAP Consultant,SAP Consultant,New York,NY,contract,168,108,2,filled,2024-09-10,2024-10-15
+40,10,Product Manager,Product Manager,Armonk,NY,permanent,0,132000,1,filled,2024-10-20,2024-11-25
+41,11,Senior Java Developer,Java Developer,Houston,TX,contract,152,96,2,filled,2023-02-15,2023-03-20
+42,12,Python Developer,Python Developer,San Francisco,CA,contract,138,87,1,filled,2023-04-25,2023-05-30
+43,13,Data Engineer,Data Engineer,Austin,TX,contract,142,89,2,filled,2023-06-05,2023-07-10
+44,14,DevOps Engineer,DevOps Engineer,Teaneck,NJ,contract,148,93,1,filled,2023-08-15,2023-09-20
+45,15,React Developer,React Developer,Dallas,TX,contract,145,91,2,filled,2023-10-25,2023-11-30
+46,16,Full Stack Developer,Full Stack Developer,New York,NY,contract,158,100,1,filled,2023-12-05,2024-01-10
+47,17,Cybersecurity Analyst,Cybersecurity Analyst,Dallas,TX,contract,152,96,1,filled,2024-02-15,2024-03-20
+48,18,Data Scientist,Data Scientist,Boston,MA,contract,162,102,1,filled,2024-04-25,2024-05-30
+49,19,Cloud Architect,Cloud Architect,New York,NY,contract,172,112,1,filled,2024-06-05,2024-07-10
+50,20,Machine Learning Engineer,Machine Learning Engineer,Cincinnati,OH,contract,178,118,2,filled,2024-08-15,2024-09-20
+51,1,Data Engineer,Data Engineer,Mountain View,CA,contract,142,89,1,open,2024-10-01,
+52,2,Python Developer,Python Developer,Redmond,WA,contract,138,87,2,open,2024-10-15,
+53,3,Cloud Engineer,Cloud Architect,New York,NY,contract,148,93,1,open,2024-11-01,
+54,5,DevOps Engineer,DevOps Engineer,Chicago,IL,contract,145,90,1,open,2024-11-15,
+55,7,React Developer,React Developer,San Francisco,CA,contract,152,96,2,open,2024-12-01,
+56,9,Machine Learning Engineer,Machine Learning Engineer,New York,NY,contract,178,118,1,open,2024-12-10,
+57,13,Data Scientist,Data Scientist,Austin,TX,contract,162,102,1,open,2024-12-15,
+58,14,Full Stack Developer,Full Stack Developer,Teaneck,NJ,contract,155,98,2,open,2025-01-05,
+59,21,Business Analyst,Business Analyst,New York,NY,permanent,0,98000,1,open,2025-01-10,
+60,23,Senior Java Developer,Java Developer,Cupertino,CA,contract,158,99,3,open,2025-01-15,
+61,24,Data Engineer,Data Engineer,Menlo Park,CA,contract,145,91,1,open,2025-01-20,
+62,25,Scrum Master,Scrum Master,Indianapolis,IN,contract,132,83,2,open,2025-01-25,
+63,26,Network Engineer,Network Engineer,Minnetonka,MN,contract,138,87,1,open,2025-02-01,
+64,27,Python Developer,Python Developer,Bethesda,MD,contract,140,88,2,open,2025-02-05,
+65,28,QA Automation Engineer,QA Engineer,Chicago,IL,contract,128,80,1,open,2025-02-10,
+66,29,Cloud Architect,Cloud Architect,Dallas,TX,contract,172,112,1,open,2025-02-15,
+67,30,Data Analyst,Data Analyst,New York,NY,contract,125,78,3,open,2025-02-20,
+68,1,Machine Learning Engineer,Machine Learning Engineer,Mountain View,CA,contract,180,120,2,open,2025-02-25,
+69,2,Cybersecurity Analyst,Cybersecurity Analyst,Redmond,WA,contract,155,98,1,open,2025-03-01,
+70,4,React Developer,React Developer,Seattle,WA,contract,148,93,2,open,2025-03-05,
