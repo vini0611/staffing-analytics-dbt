@@ -1,0 +1,75 @@
+version: 2
+
+models:
+  - name: fct_placements
+    description: "One row per placement. Core revenue fact table for Ascendion."
+    columns:
+      - name: placement_id
+        description: "Primary key — unique placement identifier"
+        tests:
+          - unique
+          - not_null
+      - name: candidate_name
+        description: "Full name of the placed candidate"
+        tests:
+          - not_null
+      - name: client_name
+        description: "Name of the client company"
+        tests:
+          - not_null
+      - name: bill_rate
+        description: "Hourly rate charged to the client"
+        tests:
+          - not_null
+      - name: margin_per_hour
+        description: "Hourly profit — bill_rate minus pay_rate"
+        tests:
+          - not_null
+
+  - name: fct_pipeline
+    description: "One row per sales opportunity. Tracks Ascendion's sales pipeline."
+    columns:
+      - name: opportunity_id
+        description: "Primary key — unique opportunity identifier"
+        tests:
+          - unique
+          - not_null
+      - name: stage
+        description: "Current stage of the opportunity"
+        tests:
+          - accepted_values:
+              values: ['prospecting', 'proposal', 'negotiation', 'closed_won', 'closed_lost']
+
+  - name: dim_candidates
+    description: "One row per candidate with aggregated placement history"
+    columns:
+      - name: candidate_id
+        description: "Primary key — unique candidate identifier"
+        tests:
+          - unique
+          - not_null
+      - name: total_placements
+        description: "Total number of placements this candidate has had"
+        tests:
+          - not_null
+      - name: active_placements
+        description: "Number of currently active placements"
+        tests:
+          - not_null
+
+  - name: dim_clients
+    description: "One row per client with aggregated revenue and placement metrics"
+    columns:
+      - name: client_id
+        description: "Primary key — unique client identifier"
+        tests:
+          - unique
+          - not_null
+      - name: total_placements
+        description: "Total placements at this client"
+        tests:
+          - not_null
+      - name: total_revenue
+        description: "Total bill rate revenue from this client"
+        tests:
+          - not_null

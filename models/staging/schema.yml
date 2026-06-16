@@ -1,0 +1,104 @@
+version: 2
+
+models:
+  - name: stg_candidates
+    description: "Cleaned candidate data from the ATS system"
+    columns:
+      - name: candidate_id
+        description: "Primary key — unique candidate identifier"
+        tests:
+          - unique
+          - not_null
+      - name: email
+        description: "Candidate email — normalised to lowercase"
+        tests:
+          - not_null
+      - name: availability_status
+        description: "Current availability of the candidate"
+        tests:
+          - accepted_values:
+              values: ['available', 'placed', 'interviewing', 'unavailable']
+
+  - name: stg_clients
+    description: "Cleaned client company data from the CRM"
+    columns:
+      - name: client_id
+        description: "Primary key — unique client identifier"
+        tests:
+          - unique
+          - not_null
+      - name: contract_status
+        description: "Whether the client contract is active or inactive"
+        tests:
+          - accepted_values:
+              values: ['active', 'inactive']
+
+  - name: stg_job_orders
+    description: "Cleaned job order data — roles clients need filled"
+    columns:
+      - name: job_order_id
+        description: "Primary key — unique job order identifier"
+        tests:
+          - unique
+          - not_null
+      - name: client_id
+        description: "Foreign key to stg_clients"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_clients')
+              field: client_id
+      - name: status
+        description: "Whether the job order is open or filled"
+        tests:
+          - accepted_values:
+              values: ['open', 'filled', 'cancelled']
+
+  - name: stg_placements
+    description: "Cleaned placement data — candidates placed at clients"
+    columns:
+      - name: placement_id
+        description: "Primary key — unique placement identifier"
+        tests:
+          - unique
+          - not_null
+      - name: candidate_id
+        description: "Foreign key to stg_candidates"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_candidates')
+              field: candidate_id
+      - name: client_id
+        description: "Foreign key to stg_clients"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_clients')
+              field: client_id
+      - name: status
+        description: "Current status of the placement"
+        tests:
+          - accepted_values:
+              values: ['active', 'completed', 'terminated']
+
+  - name: stg_opportunities
+    description: "Cleaned sales opportunity data from the CRM"
+    columns:
+      - name: opportunity_id
+        description: "Primary key — unique opportunity identifier"
+        tests:
+          - unique
+          - not_null
+      - name: client_id
+        description: "Foreign key to stg_clients"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_clients')
+              field: client_id
+      - name: stage
+        description: "Current stage of the sales opportunity"
+        tests:
+          - accepted_values:
+              values: ['prospecting', 'proposal', 'negotiation', 'closed_won', 'closed_lost']
